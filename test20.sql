@@ -92,6 +92,5 @@ first_val - last_val  dif
 FROM cte
 ORDER BY dif DESC
 
-
 -- So I think this is enough is, I have explored the date well
 -- If you have any oppurtunity for me contact here 91+ 9229584261   
