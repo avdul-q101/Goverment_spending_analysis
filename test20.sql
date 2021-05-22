@@ -10,7 +10,6 @@ WHERE government_expenditure IN
 (SELECT max(government_expenditure) 
 FROM goverment_spending_ GROUP BY entity) order by government_expenditure desc;
 -- The top 5 countries with highest govermnet spending are Kuwait, Kiribati, Tuvalu, Iraq, Israel.
-
 https://user-images.githubusercontent.com/74417838/119223776-da3d6d00-bb18-11eb-9a47-a536577d2b44.JPG
 
 
@@ -23,8 +22,6 @@ WHERE government_expenditure IN
 (SELECT min(government_expenditure) 
 FROM goverment_spending_ GROUP BY entity) order by government_expenditure asc; 
 --The top 5 countries with lowest goverment spending are UAE, Nicaragua, Romania, Belarus, Poland
-
-
 https://user-images.githubusercontent.com/74417838/119223778-df022100-bb18-11eb-88eb-d05fe460635d.JPG
 
 
@@ -36,8 +33,6 @@ FROM goverment_spending_
 GROUP BY entity
 ORDER BY  average_spending_per_country DESC;
 -- The top 5 countries with highest average are Kiribati, Tuvalu, Iraq,  Kuwait, Bosnia and Herzegovina
-
-
 https://user-images.githubusercontent.com/74417838/119223784-e6c1c580-bb18-11eb-811e-bf1b02d2f42e.JPG
 
 
@@ -56,7 +51,6 @@ Austria	3830.89
 Belgium	3762.16
 Finland	3620.41*/
 
-
 https://user-images.githubusercontent.com/74417838/119223785-e9bcb600-bb18-11eb-92b3-a604d5fed111.JPG
 
 
@@ -66,6 +60,7 @@ FROM goverment_spending_
 GROUP BY entity
 ORDER BY dif DESC;
 
+https://user-images.githubusercontent.com/74417838/119223787-ecb7a680-bb18-11eb-996f-3c9306dba720.JPG
 
 
 
