@@ -10,7 +10,7 @@ WHERE government_expenditure IN
 (SELECT max(government_expenditure) 
 FROM goverment_spending_ GROUP BY entity) order by government_expenditure desc;
 -- The top 5 countries with highest govermnet spending are Kuwait, Kiribati, Tuvalu, Iraq, Israel.
-
+![gov1](https://user-images.githubusercontent.com/74417838/119223324-6601ca00-bb16-11eb-98f4-6d1b767745bb.JPG)
 
 
 
